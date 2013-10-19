@@ -21,6 +21,11 @@
 		6FD95C7A1812AECF00317025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD95C5C1812AECF00317025 /* UIKit.framework */; };
 		6FD95C821812AECF00317025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FD95C801812AECF00317025 /* InfoPlist.strings */; };
 		6FD95C841812AECF00317025 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD95C831812AECF00317025 /* User_Data_Challenge_SolutionTests.m */; };
+		6FD95C8F1812AF3D00317025 /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD95C8E1812AF3D00317025 /* CCUserData.m */; };
+		6FD95C9F1812B63500317025 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FD95C9B1812B63500317025 /* person4.jpeg */; };
+		6FD95CA01812B63500317025 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FD95C9C1812B63500317025 /* person3.jpg */; };
+		6FD95CA11812B63500317025 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FD95C9D1812B63500317025 /* person2.jpeg */; };
+		6FD95CA21812B63500317025 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FD95C9E1812B63500317025 /* person1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		6FD95C7F1812AECF00317025 /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6FD95C811812AECF00317025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FD95C831812AECF00317025 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6FD95C8D1812AF3D00317025 /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCUserData.h; path = ../CCUserData.h; sourceTree = "<group>"; };
+		6FD95C8E1812AF3D00317025 /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCUserData.m; path = ../CCUserData.m; sourceTree = "<group>"; };
+		6FD95C9B1812B63500317025 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
+		6FD95C9C1812B63500317025 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		6FD95C9D1812B63500317025 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		6FD95C9E1812B63500317025 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,7 @@
 				6FD95C6A1812AECF00317025 /* Main.storyboard */,
 				6FD95C6D1812AECF00317025 /* CCViewController.h */,
 				6FD95C6E1812AECF00317025 /* CCViewController.m */,
+				6FD95C901812AF4A00317025 /* Model */,
 				6FD95C701812AECF00317025 /* Images.xcassets */,
 				6FD95C5F1812AECF00317025 /* Supporting Files */,
 			);
@@ -126,6 +138,10 @@
 		6FD95C5F1812AECF00317025 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6FD95C9B1812B63500317025 /* person4.jpeg */,
+				6FD95C9C1812B63500317025 /* person3.jpg */,
+				6FD95C9D1812B63500317025 /* person2.jpeg */,
+				6FD95C9E1812B63500317025 /* person1.jpeg */,
 				6FD95C601812AECF00317025 /* User Data Challenge Solution-Info.plist */,
 				6FD95C611812AECF00317025 /* InfoPlist.strings */,
 				6FD95C641812AECF00317025 /* main.m */,
@@ -150,6 +166,15 @@
 				6FD95C801812AECF00317025 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FD95C901812AF4A00317025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FD95C8D1812AF3D00317025 /* CCUserData.h */,
+				6FD95C8E1812AF3D00317025 /* CCUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD95C711812AECF00317025 /* Images.xcassets in Resources */,
+				6FD95CA21812B63500317025 /* person1.jpeg in Resources */,
 				6FD95C631812AECF00317025 /* InfoPlist.strings in Resources */,
 				6FD95C6C1812AECF00317025 /* Main.storyboard in Resources */,
+				6FD95C9F1812B63500317025 /* person4.jpeg in Resources */,
+				6FD95CA01812B63500317025 /* person3.jpg in Resources */,
+				6FD95CA11812B63500317025 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +281,7 @@
 			files = (
 				6FD95C691812AECF00317025 /* CCAppDelegate.m in Sources */,
 				6FD95C651812AECF00317025 /* main.m in Sources */,
+				6FD95C8F1812AF3D00317025 /* CCUserData.m in Sources */,
 				6FD95C6F1812AECF00317025 /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
